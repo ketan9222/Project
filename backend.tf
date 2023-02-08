@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "mydev-tf-state-bucket-5"
+    bucket = "ketan32-bucket"
     key = "main"
-    region = "ap-south-1"
-    dynamodb_table = "my-dynamodb-table"
+    region = "us-east-2"
+    dynamodb_table = "dynamodb-state-locking"
   }
 }
