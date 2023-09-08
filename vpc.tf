@@ -34,7 +34,7 @@ resource "aws_subnet" "dpp-public-sn-3" {
   availability_zone = "ap-south-1c"
 
   tags = {
-    Name = "public-subnet-2"
+    Name = "public-subnet-3"
   }
 }
 

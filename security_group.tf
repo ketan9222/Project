@@ -1,4 +1,4 @@
-resource "aws_security_group" "allow_tls" {
+resource "aws_security_group" "allow_ssh" {
   name        = "allow ssh"
   description = "Allow ssh inbound traffic"
   vpc_id = aws_vpc.dpp-vpc.id
@@ -19,6 +19,6 @@ resource "aws_security_group" "allow_tls" {
   }
 
   tags = {
-    Name = "allow_tls"
+    Name = "allow_SSH"
   }
 }
